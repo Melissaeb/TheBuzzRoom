@@ -15,7 +15,7 @@
     <a href="https://github.com/Melissaeb/TheBuzzRoom"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Melissaeb/TheBuzzRoom">View Demo</a>
+    <a href="https://wonderful-pond-0c4860310.5.azurestaticapps.net/">View Demo</a>
     ·
     <a href="https://github.com/Melissaeb/TheBuzzRoom/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
