@@ -1,5 +1,3 @@
-## Resources
-
 <a name="readme-top"></a>
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/melissa-elliston-boyes-158259301/]
 
@@ -7,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Melissaeb/TheBuzzRoom">
-    <img src="/edited-bee-no-background.png" alt="Logo" width="80" height="80">
+    <img src="/public/edited-bee-no-background.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">The Buzz Room</h3>
