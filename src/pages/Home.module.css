@@ -43,13 +43,13 @@
 }
 
 .searchInput {
-  width: 20vw;
+  width: 30vw;
   justify-content: flex-end;
   outline: none;
   padding-left: 1vw;
   color: black;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .searchBtn {
