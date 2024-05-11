@@ -1,0 +1,130 @@
+.navBar {
+  display: grid;
+  grid: auto auto / auto 1fr;
+}
+
+.companyName,
+.link,
+.link:visited,
+.loginBtn {
+  color: #f7e5c5;
+  transition: 0.4s;
+}
+
+.logoName {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  width: 45px;
+  margin: 13px;
+}
+
+.companyName {
+  font-size: 16px;
+  text-wrap: none;
+  white-space: nowrap;
+}
+
+.menu {
+  grid-area: 1 / 2;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  white-space: nowrap;
+}
+
+.listItem {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.logo,
+.companyName,
+.link:hover,
+.loginBtn:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+
+.loginBtn {
+  margin-right: 30px;
+  border: none;
+  padding: 6px 24px;
+  background-color: transparent;
+  font-size: 13px;
+  background-color: #f89717;
+  color: #041e37;
+  font-weight: 700;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .menuIconSection {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .menuIcon {
+    display: block;
+    width: 30px;
+    margin-right: 15px;
+  }
+
+  .menuIcon:hover {
+    cursor: pointer;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .showNavigation {
+    display: flex;
+    grid-area: 3 / 1 / 1 / span 2;
+    height: auto;
+    flex-flow: column;
+    align-items: flex-end;
+  }
+
+  .navLinks {
+    flex-flow: column;
+    align-items: flex-end;
+  }
+
+  .listItem {
+    margin: 0 15px 5px 0;
+  }
+
+  .loginBtn {
+    margin: 8px 15px 12px 0;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+}

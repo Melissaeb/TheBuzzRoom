@@ -1,0 +1,47 @@
+.articleCard {
+  overflow: hidden;
+  flex: none;
+  width: 300px;
+  /* background-color: #fff; */
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.articleCard:hover {
+  cursor: pointer;
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+}
+
+.nameDescription {
+  position: absolute;
+  top: 173px;
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 4px 6px 6px 8px;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 2px;
+  display: inline-block;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.nameDescription:hover {
+  top: 133px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  opacity: 0.8;
+}

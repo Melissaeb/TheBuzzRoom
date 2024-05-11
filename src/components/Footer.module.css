@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #f7e5c5;
+  white-space: pre-wrap;
+  width: 100%;
+  padding: 5px 10vw;
+  text-align: center;
+  background-color: #104547;
+  z-index: 3;
+}
+
+.link {
+  color: #f89717;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer {
+    position: fixed;
+    bottom: 0px;
+  }
+}

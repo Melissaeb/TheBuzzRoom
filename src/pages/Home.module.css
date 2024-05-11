@@ -1,0 +1,160 @@
+.main {
+  display: grid;
+  grid: auto minmax(auto, 1fr) / 100%;
+  background-color: #104547;
+}
+
+.banner {
+  display: flex;
+  flex-flow: column;
+  background-image: url("../assets/rocket-launch-narrow.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.slogan,
+.buzz,
+.searchInput,
+.searchForm {
+  background-color: transparent;
+}
+
+.slogan {
+  position: relative;
+  color: #f89717;
+  font-weight: 400;
+  margin: 9vw 9vw 10.4vw 0;
+  font-size: 5vw;
+}
+
+.searchForm {
+  margin: 0 5vw 1.4vw 0;
+  height: 2.5vw;
+}
+
+.searchInput,
+.searchBtn {
+  border: none;
+  height: 100%;
+  font-size: 1.3vw;
+}
+
+.searchInput {
+  width: 20vw;
+  justify-content: flex-end;
+  outline: none;
+  padding-left: 1vw;
+  color: black;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.searchBtn {
+  width: 10vw;
+  background-color: #104547;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f7e5c5;
+  transition: 0.4s;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+
+.articles {
+  grid-area: 2 / 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 60px 0;
+  gap: 50px;
+  margin: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .slogan {
+    font-size: 6vw;
+    margin-bottom: 8vw;
+  }
+
+  .searchForm {
+    height: 24px;
+  }
+
+  .searchInput,
+  .searchBtn {
+    font-size: 12px;
+  }
+
+  .searchInput {
+    width: 250px;
+  }
+
+  .searchBtn {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .slogan {
+    font-size: 7vw;
+    margin-top: 7vw;
+    margin-bottom: 5vw;
+  }
+
+  .searchForm {
+    align-self: flex-end;
+    height: 24px;
+    margin: 0 4vw 0 0;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    align-items: flex-end;
+  }
+
+  .banner {
+    padding-bottom: 4vw;
+  }
+
+  .searchInput,
+  .searchBtn {
+    font-size: 12px;
+  }
+
+  .searchInput {
+    width: 50vw;
+  }
+
+  .searchBtn {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slogan {
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+  }
+  .searchForm {
+    height: 18px;
+    margin-bottom: 3vw;
+  }
+
+  .searchInput {
+    opacity: 0.5;
+  }
+
+  .searchInput,
+  .searchBtn {
+    font-size: 10px;
+  }
+
+  .searchBtn {
+    width: 100px;
+  }
+}
