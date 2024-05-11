@@ -106,7 +106,7 @@ Don't forget to give the project a star! Thanks again!
 
 Melissa Elliston-Boyes
 
-[Email ME](m.ellistonboyes@gmail.com) at m.ellistonboyes@gmail.com
+[Email Me](m.ellistonboyes@gmail.com) at m.ellistonboyes@gmail.com
 <br />
 [Message me on LinkedIn](https://www.linkedin.com/in/melissa-elliston-boyes-158259301/)
 
