@@ -28,7 +28,7 @@ function Home() {
         <form className={styles.searchForm}>
           <input
             type="text"
-            placeholder="Type your desired article here"
+            placeholder="Search articles here"
             className={styles.searchInput}
           />
           <button type="submit" className={styles.searchBtn}>
