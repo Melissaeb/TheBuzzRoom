@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/melissa-elliston-boyes-158259301/]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -41,8 +40,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -66,12 +63,7 @@
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -112,7 +104,10 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-Melissa Elliston-Boyes - m.ellistonboyes@gmail.com
+Melissa Elliston-Boyes
+
+[Email ME](m.ellistonboyes@gmail.com) at m.ellistonboyes@gmail.com
+[Message me on LinkedIn](https://www.linkedin.com/in/melissa-elliston-boyes-158259301/)
 
 Project Link: [https://github.com/Melissaeb/TheBuzzRoom](https://github.com/Melissaeb/TheBuzzRoom)
 
