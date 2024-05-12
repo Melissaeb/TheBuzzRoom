@@ -1,7 +1,6 @@
 .main {
   display: grid;
   grid: auto minmax(auto, 1fr) / 100%;
-  background-color: #104547;
 }
 
 .banner {
@@ -24,7 +23,7 @@
 
 .slogan {
   position: relative;
-  color: #f89717;
+  color: #f4af2a;
   font-weight: 400;
   margin: 9vw 9vw 10.4vw 0;
   font-size: 5vw;
@@ -54,7 +53,7 @@
 
 .searchBtn {
   width: 10vw;
-  background-color: #104547;
+  background-color: #2a303e;
   text-transform: uppercase;
   font-weight: 600;
   color: #f7e5c5;
