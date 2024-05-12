@@ -32,10 +32,12 @@ export default function NavBar() {
             alt="Menu icon"
             className={styles.menuIcon}
             onClick={toggleMenu}
+            // When clicked, toggles hamburgerOpen to true or false depending on what its last state was.
           />
         </div>
 
         <div
+          // has className of showNavigation if hamburgerOpen is true
           className={`${styles.navigation} ${
             hamburgerOpen ? styles.showNavigation : ""
           }  `}
