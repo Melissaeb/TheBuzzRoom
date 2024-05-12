@@ -127,6 +127,6 @@ Project Link: [https://github.com/Melissaeb/TheBuzzRoom](https://github.com/Meli
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/melissa-elliston-boyes-158259301/
-[product-screenshot]: /src/assets/screenshot.PNG
+[product-screenshot]: /src/assets/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
