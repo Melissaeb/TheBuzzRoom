@@ -1,17 +1,23 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import styles from "./NavBar.module.css";
 
+// Image imports
 import hamburgerIcon from "../assets/hamburger-icon.png";
-import { useState } from "react";
 
 export default function NavBar() {
+  // State to be used to open menu in small screen
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
+  // Sets state to true or not true, depending on the last state
   const toggleMenu = () => {
     setHamburgerOpen(!hamburgerOpen);
   };
+
   return (
     <nav className={styles.navBar}>
+
+      {/* Logo and Name section on left side of screen */}
       <div className={styles.logoName}>
         <img
           className={styles.logo}
@@ -25,7 +31,10 @@ export default function NavBar() {
         </h1>
       </div>
 
+      {/* Menu icon, navigational links and login on right side of screen */}
       <div className={styles.menu}>
+
+        {/* Hamburger menu icon shows instead of navlinks and login, if screen is small */}
         <div className={styles.menuIconSection}>
           <img
             src={hamburgerIcon}
@@ -36,6 +45,7 @@ export default function NavBar() {
           />
         </div>
 
+        {/* Navigational links and login button */}
         <div
           // has className of showNavigation if hamburgerOpen is true
           className={`${styles.navigation} ${

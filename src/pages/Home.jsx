@@ -9,22 +9,19 @@ import dataPrivacy from "../assets/data-privacy.jpg";
 function Home() {
   return (
     <div className={styles.main}>
+
+      {/* Banner section with search form */}
       <header className={styles.banner}>
+
+        {/* Slogan */}
         <h2 className={styles.slogan}>
           Join the{" "}
           <em className={styles.buzz}>
             <strong className={styles.buzz}>Buzz </strong>
           </em>
-          {/* Option: 
-          Our
-          <em>
-            <strong> passion,</strong>
-          </em>
-          <br /> your
-          <em>
-            <strong> success.</strong>
-          </em> */}
         </h2>
+
+        {/* Search form */}
         <form className={styles.searchForm}>
           <input
             type="text"
@@ -37,7 +34,9 @@ function Home() {
         </form>
       </header>
 
+      {/* Article section */}
       <main className={styles.articles}>
+        {/* ArticleCard component with props */}
         <ArticleCard
           src={handPlant}
           name="Kiwis Lead the Charge"
