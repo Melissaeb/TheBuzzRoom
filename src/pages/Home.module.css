@@ -70,9 +70,8 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 60px 0;
+  margin: 60px 60px;
   gap: 50px;
-  margin: 100px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -100,15 +99,19 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .banner {
+    background-size: 150vw;
+  }
+
   .slogan {
-    font-size: 7vw;
-    margin-top: 7vw;
+    font-size: 8vw;
+    margin-top: 12vw;
     margin-bottom: 5vw;
   }
 
   .searchForm {
     align-self: flex-end;
-    height: 24px;
+    height: 50px;
     margin: 0 4vw 0 0;
     display: flex;
     flex-flow: column;
@@ -126,21 +129,25 @@
   }
 
   .searchInput {
-    width: 50vw;
+    width: 60vw;
   }
 
   .searchBtn {
-    width: 100px;
+    width: 150px;
+  }
+
+  .articles {
+    margin-bottom: 100px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .slogan {
-    margin-top: 7vw;
-    margin-bottom: 3vw;
+    margin-top: 14vw;
+    margin-bottom: 7vw;
   }
   .searchForm {
-    height: 18px;
+    height: 24px;
     margin-bottom: 3vw;
   }
 
@@ -155,5 +162,9 @@
 
   .searchBtn {
     width: 100px;
+  }
+
+  .articles {
+    margin-top: 7vw;
   }
 }
