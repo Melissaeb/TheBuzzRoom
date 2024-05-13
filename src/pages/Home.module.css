@@ -107,6 +107,8 @@
     font-size: 8vw;
     margin-top: 12vw;
     margin-bottom: 5vw;
+
+    margin-bottom: 7.3vw;
   }
 
   .searchForm {
@@ -143,11 +145,11 @@
 
 @media only screen and (max-width: 500px) {
   .slogan {
-    margin-top: 14vw;
-    margin-bottom: 7vw;
+    margin-bottom: 7.3vw;
   }
+
   .searchForm {
-    height: 24px;
+    height: 45px;
     margin-bottom: 3vw;
   }
 
@@ -157,7 +159,7 @@
 
   .searchInput,
   .searchBtn {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .searchBtn {
